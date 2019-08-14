@@ -8,6 +8,17 @@ import BindExm from './Bind';
 import BindObject from './BindObject';
 import Login from './TryLogin';
 import TryOnChange from './TryOnChange';
+import ChangeAfter from './ComponentDidMount'
+import CompUpdate from './ShouldComponentUpdate'
+import PhoneNo from './PhoneNo';
+import SimpleMap from './gmap';
+import Geolocater from './Geolocater';
+import Map from './Map';
+import PhoneEmailvalidation from './task1';
+import { geolocated } from 'react-geolocated';
+import NewMap from './newMap';
+import MapView from './MapView';
+//import geolocated from './Geolocater';
 
 
 
@@ -40,4 +51,10 @@ import TryOnChange from './TryOnChange';
 
 // setInterval(tick,1000);
 
-ReactDom.render(<Login/>,document.getElementById('root'));
+//ReactDom.render(<PhoneNo/>,document.getElementById('root'));
+//ReactDom.render(<SimpleMap/>,document.getElementById('root'));
+//ReactDom.render(<Geolocater/>,document.getElementById('root'));
+ReactDom.render(<Map/>,document.getElementById('root'));
+//ReactDom.render(<geolocated/>,document.getElementById('root'))
+//ReactDom.render(<MapView/>,document.getElementById('root'));
+//ReactDom.render(<PhoneEmailvalidation/>,document.getElementById('root'))
